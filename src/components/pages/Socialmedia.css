@@ -1,0 +1,29 @@
+.socialmedia__links {
+  display: flex;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  background-color: #eee;
+
+  border-radius: 10px;
+}
+
+.facebook > a {
+  color: blue !important;
+  padding-right: 10px;
+}
+.youtube > a {
+  color: red !important;
+  padding-right: 10px;
+}
+.instagram > a {
+  color: violet !important;
+  padding-right: 10px;
+}
+.email > a {
+  color: orangered !important;
+  padding-right: 10px;
+}
+.twitter > a {
+  color: skyblue !important;
+}

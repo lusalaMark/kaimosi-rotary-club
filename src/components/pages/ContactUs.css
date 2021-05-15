@@ -1,0 +1,10 @@
+.contact {
+  /* background-color: #f3f2ef; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content__boby {
+  display: flex;
+}

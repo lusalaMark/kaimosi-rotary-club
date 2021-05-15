@@ -1,0 +1,20 @@
+.wearerotaryrotary {
+  display: flex;
+  flex-direction: column;
+}
+
+.wearerotaryheading > h1 {
+  padding-left: 140px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  color: #005daa !important;
+  text-align: left;
+}
+
+.wearerotarycontent__body {
+  display: flex;
+  margin-top: 35px;
+  max-width: 1200px;
+  margin-left: 20px;
+  margin-right: 20px;
+}

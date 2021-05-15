@@ -1,0 +1,31 @@
+.sidebarcontent {
+  flex: 0.2;
+  text-align: left;
+  height: fit-content;
+  padding-left: 100px;
+}
+
+.subpagesmain {
+  color: #005daa;
+  padding: 10px;
+  background-color: #ececec;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.subpage {
+  color: #005daa;
+  border-left: solid 1px #ececec;
+  border-right: solid 1px #ececec;
+  padding: 10px;
+}
+
+.subpagee {
+  color: #005daa;
+  padding: 10px;
+  border-left: solid 1px #ececec;
+  border-right: solid 1px #ececec;
+  border-bottom: solid 1px #ececec;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
