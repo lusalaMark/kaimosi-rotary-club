@@ -1,15 +1,15 @@
 import React from "react";
 import Centercontentclubevents from "./Centercontentclubevents";
-import "./PresidentofrotaryclubofKaimosi.css";
+import "./ClubEvents.css";
 import SidebarcontentpresidentofrotaryclubofKaimosi from "./SidebarcontentpresidentofrotaryclubofKaimosi";
 
 export default function PresidentofrotaryclubofKaimosi() {
   return (
-    <div className="contact">
-      <div className="heading">
+    <div className="clubEvents__contact">
+      <div className="clubEvents__heading">
         <h1>CALENDAR</h1>
       </div>
-      <div className="content__body">
+      <div className="clubEvents__contentbody">
         <SidebarcontentpresidentofrotaryclubofKaimosi />
         <Centercontentclubevents />
       </div>

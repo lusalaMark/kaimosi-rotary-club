@@ -4,11 +4,11 @@ import "./ContactUs.css";
 
 export default function ContactUs() {
   return (
-    <div className="contact">
-      <div className="heading">
+    <div className="contactus__contact">
+      <div className="contactus__heading">
         <h1>Get in touch with us</h1>
       </div>
-      <div className="content__body">
+      <div className="contactus__contentbody">
         <Centercontentcontactus />
       </div>
     </div>

@@ -10,11 +10,13 @@
   color: #005daa !important;
   text-align: left;
 }
-
 .wearerotarycontent__body {
   display: flex;
-  margin-top: 35px;
-  max-width: 1200px;
-  margin-left: 20px;
-  margin-right: 20px;
+}
+
+@media screen and (max-width: 820px) {
+  .wearerotarycontent__body {
+    flex-direction: column;
+    padding: 20px;
+  }
 }

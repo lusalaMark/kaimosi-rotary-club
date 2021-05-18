@@ -1,6 +1,5 @@
 .content__center {
   flex: 0.7;
-  margin: 10px 2px;
 }
 
 .contentlinks__bottom {
@@ -15,6 +14,7 @@
 .feed1 {
   color: #005daa;
   text-align: center;
+  background-color: aquamarine;
 }
 
 .feed2 {

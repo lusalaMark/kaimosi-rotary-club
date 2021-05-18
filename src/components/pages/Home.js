@@ -4,8 +4,6 @@ import Sidebar from "../../Sidebar";
 import SidebarRight from "../../SidebarRight";
 import Carouselslider from "./Carouselslider";
 
-// import "react-responsive-carousel/lib/styles/carousel.min.css";
-
 function Home() {
   return (
     <div className="app">

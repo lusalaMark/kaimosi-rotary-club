@@ -1,15 +1,15 @@
 import React from "react";
-import CentercontentProjectSelection from "./CentercontentProjectSelection";
 import "./ProjectSelection.css";
+import CentercontentProjectSelection from "./CentercontentProjectSelection";
 import SidebarcontentprojectSelection from "./SidebarcontentprojectSelection";
 
 export default function ProjectSelection() {
   return (
-    <div className="ProjectSelection">
-      <div className="heading">
+    <div className="projectSelection">
+      <div className="projectSelection__heading">
         <h1>Welcome</h1>
       </div>
-      <div className="content__body">
+      <div className="projectSelection__contentbody">
         <SidebarcontentprojectSelection />
         <CentercontentProjectSelection />
       </div>

@@ -5,11 +5,11 @@ import "./Serviceprojects.css";
 
 export default function Serviceprojects() {
   return (
-    <div className="service">
-      <div className="spheading">
+    <div className="serviceproject">
+      <div className="serviceproject__heading">
         <h1>SERVICE PROJECTS</h1>
       </div>
-      <div className="spcontent__body">
+      <div className="serviceproject__contentbody">
         <Sidebarcontentserviceprojects />
         <Centercontentserviceprojects />
       </div>

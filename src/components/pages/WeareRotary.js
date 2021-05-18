@@ -1,5 +1,6 @@
 import React from "react";
 import Centercontentwearerotary from "./Centercontentwearerotary";
+import Rightcontentwearerotary from "./Rightcontentwearerotary";
 import Sidebarcontentwearerotary from "./Sidebarcontentwearerotary";
 import "./WeareRotary.css";
 
@@ -12,6 +13,7 @@ export default function Wearerotary() {
       <div className="wearerotarycontent__body">
         <Sidebarcontentwearerotary />
         <Centercontentwearerotary />
+        <Rightcontentwearerotary />
       </div>
     </div>
   );

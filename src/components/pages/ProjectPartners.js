@@ -1,14 +1,15 @@
 import React from "react";
-import Centercontentprojectpartners from "./Centercontentprojectpartners";
+import "./ProjectPartners.css";
 import Sidebarcontentprojectpartners from "./Sidebarcontentprojectpartners";
+import Centercontentprojectpartners from "./Centercontentprojectpartners";
 
 export default function ProjectPartners() {
   return (
-    <div className="contact">
-      <div className="heading">
-        <h1>RELATED PAGES</h1>
+    <div className="ProjectPartners__contact">
+      <div className="ProjectPartners__heading">
+        <h1>RELATED PAGE</h1>
       </div>
-      <div className="content__body">
+      <div className="ProjectPartners__contentbody">
         <Sidebarcontentprojectpartners />
         <Centercontentprojectpartners />
       </div>

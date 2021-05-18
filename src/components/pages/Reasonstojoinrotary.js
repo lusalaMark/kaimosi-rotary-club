@@ -5,11 +5,11 @@ import Centercontentreasonstojoinrotary from "./Centercontentreasonstojoinrotary
 
 export default function ProjectPartners() {
   return (
-    <div className="contact">
-      <div className="heading">
+    <div className="Reasonstojoinrotary__contact">
+      <div className="Reasonstojoinrotary__heading">
         <h1>Reasons to join Rotary Club of Kaimosi</h1>
       </div>
-      <div className="content__body">
+      <div className="Reasonstojoinrotary__contentbody">
         <Sidebarcontentreasonstojoinrotary />
         <Centercontentreasonstojoinrotary />
       </div>
