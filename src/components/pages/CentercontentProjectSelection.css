@@ -1,5 +1,9 @@
 .content__center {
   flex: 0.7;
+<<<<<<< HEAD
+=======
+  margin: 10px 2px;
+>>>>>>> 67367879687a409480ec139f3c9f57d558bca8b8
 }
 
 .contentlinks__bottom {
@@ -14,7 +18,10 @@
 .feed1 {
   color: #005daa;
   text-align: center;
+<<<<<<< HEAD
   background-color: aquamarine;
+=======
+>>>>>>> 67367879687a409480ec139f3c9f57d558bca8b8
 }
 
 .feed2 {

@@ -8,7 +8,10 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.3",
+<<<<<<< HEAD
     "firebase": "^8.6.1",
+=======
+>>>>>>> 67367879687a409480ec139f3c9f57d558bca8b8
     "firebase-admin": "^9.7.0",
     "firebase-functions": "^3.13.2",
     "node-sass": "^5.0.0",

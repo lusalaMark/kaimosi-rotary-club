@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .contactus__contact {
   display: flex;
   flex-direction: column;
@@ -17,4 +18,15 @@
   max-width: 1200px;
   margin-left: 20px;
   margin-right: 20px;
+=======
+.contact {
+  /* background-color: #f3f2ef; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content__boby {
+  display: flex;
+>>>>>>> 67367879687a409480ec139f3c9f57d558bca8b8
 }

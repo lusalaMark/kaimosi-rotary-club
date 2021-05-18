@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import React from "react";
 // import "./Centercontentcontactus.css";
 // import Socialmedia from "./Socialmedia";
@@ -201,3 +202,12 @@ const Contact = () => {
 };
 
 export default Contact;
+=======
+import React from "react";
+
+function Membership() {
+  return <div></div>;
+}
+
+export default Membership;
+>>>>>>> 67367879687a409480ec139f3c9f57d558bca8b8

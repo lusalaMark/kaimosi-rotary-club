@@ -66,6 +66,10 @@
   justify-content: space-between;
   align-items: center;
   width: 90%;
+<<<<<<< HEAD
+=======
+  max-width: 1000px;
+>>>>>>> 67367879687a409480ec139f3c9f57d558bca8b8
   margin: 40px auto 0 auto;
 }
 
@@ -101,6 +105,17 @@
     padding-top: 2rem;
   }
 
+<<<<<<< HEAD
+=======
+  .footer-input {
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+>>>>>>> 67367879687a409480ec139f3c9f57d558bca8b8
   .footer-link-wrapper {
     flex-direction: column;
   }
@@ -110,5 +125,9 @@
   }
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 500px) {
+=======
+@media screen and (max-width: 768px) {
+>>>>>>> 67367879687a409480ec139f3c9f57d558bca8b8
 }

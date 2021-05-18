@@ -8,8 +8,14 @@
 }
 
 .logo > img {
+<<<<<<< HEAD
   height: 100px;
   width: 100px;
+=======
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+>>>>>>> 67367879687a409480ec139f3c9f57d558bca8b8
 }
 
 .feed {

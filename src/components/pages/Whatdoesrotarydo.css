@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 /* .Kaimosirotaryserviceprojects__rotary {
+=======
+.Whatdoesrotarydo {
+>>>>>>> 67367879687a409480ec139f3c9f57d558bca8b8
   display: flex;
   flex-direction: column;
 }
 
+<<<<<<< HEAD
 .Kaimosirotaryserviceprojects__heading > h1 {
+=======
+.headinhg__Watdoesrotarydo > h1 {
+>>>>>>> 67367879687a409480ec139f3c9f57d558bca8b8
   padding-left: 140px;
   padding-top: 50px;
   padding-bottom: 10px;
@@ -11,6 +19,7 @@
   text-align: left;
 }
 
+<<<<<<< HEAD
 .Kaimosirotaryserviceprojects__contentbody {
   display: flex;
   margin-top: 35px;
@@ -33,6 +42,9 @@
 }
 
 .Kaimosirotaryserviceprojects__contentbody {
+=======
+.contentbody__Whatdoesrotarydo {
+>>>>>>> 67367879687a409480ec139f3c9f57d558bca8b8
   display: flex;
   margin-top: 35px;
   max-width: 1200px;

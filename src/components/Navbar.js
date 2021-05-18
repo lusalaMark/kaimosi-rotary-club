@@ -14,7 +14,11 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+<<<<<<< HEAD
             KAIMOSI KENYA ROTARY CLUB
+=======
+            KAIMOSI ROTARY CLUB
+>>>>>>> 67367879687a409480ec139f3c9f57d558bca8b8
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />

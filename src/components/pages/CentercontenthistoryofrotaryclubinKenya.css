@@ -20,8 +20,13 @@
   padding: 10px;
 }
 .pic > img {
+<<<<<<< HEAD
   height: 100px;
   width: 100px;
+=======
+  height: 200px;
+  width: 200px;
+>>>>>>> 67367879687a409480ec139f3c9f57d558bca8b8
   padding: 20px;
 }
 

@@ -1,6 +1,9 @@
 .sidebar {
   margin-left: 10px;
+<<<<<<< HEAD
   margin-bottom: 10px;
+=======
+>>>>>>> 67367879687a409480ec139f3c9f57d558bca8b8
   flex: 0.8;
   border-radius: 10px;
   text-align: center;
@@ -91,3 +94,31 @@
   float: left;
   margin: 2px 12px 2px 12px;
 }
+<<<<<<< HEAD
+=======
+
+@media screen and (max-width: 960px) {
+  .sidebar {
+    /* display: flex;
+    flex-direction: column;
+    font-size: 10px; */
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .sidebar > h1 {
+    font-size: 10px;
+    margin-top: -100px;
+  }
+
+  .hero-container > p {
+    font-size: 30px;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+}
+>>>>>>> 67367879687a409480ec139f3c9f57d558bca8b8
