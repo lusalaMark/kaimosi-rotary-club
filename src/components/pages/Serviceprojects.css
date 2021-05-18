@@ -1,0 +1,27 @@
+.serviceproject {
+  display: flex;
+  flex-direction: column;
+}
+
+.serviceproject__heading > h1 {
+  padding-left: 140px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  color: #005daa !important;
+  text-align: left;
+}
+
+.serviceproject__contentbody {
+  display: flex;
+  margin-top: 35px;
+  max-width: 1200px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 820px) {
+  .serviceproject__contentbody {
+    flex-direction: column;
+    padding: 20px;
+  }
+}
