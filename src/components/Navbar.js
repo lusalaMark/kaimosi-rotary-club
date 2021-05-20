@@ -14,15 +14,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-<<<<<<< HEAD
             KAIMOSI KENYA ROTARY CLUB
-=======
-<<<<<<< HEAD
-            KAIMOSI KENYA ROTARY CLUB
-=======
-            KAIMOSI ROTARY CLUB
->>>>>>> 67367879687a409480ec139f3c9f57d558bca8b8
->>>>>>> 75092581f78fb7497b59c077c01af56b71ff23f5
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
