@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 75092581f78fb7497b59c077c01af56b71ff23f5
 // import React from "react";
 // import "./Centercontentcontactus.css";
 // import Socialmedia from "./Socialmedia";
@@ -119,6 +123,8 @@
 // export default Centercontentcontactus;
 
 import React, { useState } from "react";
+<<<<<<< HEAD
+=======
 import "./Centercontentcontactus.css";
 import { db } from "../../firebase";
 
@@ -199,3 +205,91 @@ const Contact = () => {
 };
 
 export default Contact;
+=======
+import React from "react";
+>>>>>>> 75092581f78fb7497b59c077c01af56b71ff23f5
+import "./Centercontentcontactus.css";
+import { db } from "../../firebase";
+
+const Contact = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phonenumber, setPhonenumber] = useState("");
+  const [message, setMessage] = useState("");
+
+  const [loader, setLoader] = useState(false);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoader(true);
+
+    db.collection("contacts")
+      .add({
+        name: name,
+        email: email,
+        phonenumber: phonenumber,
+        message: message,
+      })
+      .then(() => {
+        setLoader(false);
+        alert("Your message has been submitted👍");
+      })
+      .catch((error) => {
+        alert(error.message);
+        setLoader(false);
+      });
+
+    setName("");
+    setEmail("");
+    setMessage("");
+  };
+
+  return (
+    <form className="form" onSubmit={handleSubmit}>
+      <h1>Contact Us</h1>
+
+      <label>Name</label>
+      <input
+        placeholder="Name"
+        value={name}
+        onChange={(e) => setName(e.target.value)}
+      />
+
+      <label>Email</label>
+      <input
+        placeholder="Email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+      />
+
+      <label>Phone Number</label>
+      <input
+        type="number"
+        placeholder="+254123456789"
+        value={phonenumber}
+        onChange={(e) => setPhonenumber(e.target.value)}
+      />
+
+      <label>Message</label>
+      <textarea
+        placeholder="Message"
+        value={message}
+        onChange={(e) => setMessage(e.target.value)}
+      ></textarea>
+
+      <button
+        type="submit"
+        style={{ background: loader ? "#ccc" : " rgb(2, 2, 110)" }}
+      >
+        Submit
+      </button>
+    </form>
+  );
+};
+
+<<<<<<< HEAD
+export default Contact;
+=======
+export default Centercontentcontactus;
+>>>>>>> 67367879687a409480ec139f3c9f57d558bca8b8
+>>>>>>> 75092581f78fb7497b59c077c01af56b71ff23f5
