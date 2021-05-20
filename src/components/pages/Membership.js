@@ -40,7 +40,7 @@ const Membership = () => {
       <form className="form" onSubmit={handleSubmit}>
         <h1>Membership</h1>
 
-        <label>Name</label>
+        <label>Enter your Full Name</label>
         <input
           placeholder="Enter your Full Name"
           value={name}
