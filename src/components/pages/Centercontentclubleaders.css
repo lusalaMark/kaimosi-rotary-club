@@ -1,3 +1,56 @@
-.feed > p > h3 {
-  color: brown;
+.content__center {
+  color: red;
+}
+
+.content__cen {
+  margin-left: 100px;
+  padding: 20px;
+}
+
+.feed {
+  color: yellowgreen;
+}
+
+.feed > p {
+  color: #005daa;
+}
+
+.contactpeople {
+  display: flex;
+  padding: 10px;
+}
+.pic > img {
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+}
+
+.imgtext {
+  color: #005daa !important;
+  padding-top: 50px;
+}
+
+.text {
+  padding: 5px;
+}
+
+.text > p {
+  font-style: italic;
+  color: green;
+}
+
+.contentlinks__bottom {
+  color: #005daa;
+  margin-left: 50px;
+  text-decoration: none;
+}
+
+.socialmedia__icons {
+  background-color: #eee !important;
+  margin: 40px;
+  color: #005daa;
+}
+
+.socialmedia__icons > h1 {
+  font-size: 20px;
 }

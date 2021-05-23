@@ -1,14 +1,16 @@
 import React from "react";
-import Centercontentcontactus from "./Centercontentcontactus";
 import "./ContactUs.css";
+import Centercontentcontactus from "./Centercontentcontactus";
+import Sidebarcontentcontactus from "./Sidebarcontentcontactus";
 
 export default function ContactUs() {
   return (
-    <div className="contactus__contact">
+    <div className="contactus">
       <div className="contactus__heading">
-        <h1>Get in touch with us</h1>
+        <h1>Leave us a message </h1>
       </div>
       <div className="contactus__contentbody">
+        <Sidebarcontentcontactus />
         <Centercontentcontactus />
       </div>
     </div>

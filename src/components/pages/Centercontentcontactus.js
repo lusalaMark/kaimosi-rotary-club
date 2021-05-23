@@ -14,7 +14,7 @@ const Centercontentcontactus = () => {
     e.preventDefault();
     setLoader(true);
 
-    db.collection("contacts")
+    db.collection("membership")
       .add({
         name: name,
         email: email,
@@ -23,7 +23,7 @@ const Centercontentcontactus = () => {
       })
       .then(() => {
         setLoader(false);
-        alert("Your message has been submitted👍");
+        alert("Your message has been submitted successfully👍");
       })
       .catch((error) => {
         alert(error.message);
@@ -36,45 +36,44 @@ const Centercontentcontactus = () => {
   };
 
   return (
-    <form className="form" onSubmit={handleSubmit}>
-      <h1>Contact Us</h1>
+    <div className="Centercontent__contactus">
+      <form className="form__contactus" onSubmit={handleSubmit}>
+        <label>Enter your Full Name</label>
+        <input
+          placeholder="Enter your Full Name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+        />
+        <label>Enter your Email Address </label>
+        <input
+          placeholder="Email Address"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
 
-      <label>Name</label>
-      <input
-        placeholder="Name"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-      />
+        <label>Enter Phone Number</label>
+        <input
+          type="number"
+          placeholder="+254123456789"
+          value={phonenumber}
+          onChange={(e) => setPhonenumber(e.target.value)}
+        />
 
-      <label>Email</label>
-      <input
-        placeholder="Email"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-      />
+        <label>Enter Message</label>
+        <textarea
+          placeholder="Message"
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+        ></textarea>
 
-      <label>Phone Number</label>
-      <input
-        type="number"
-        placeholder="+254123456789"
-        value={phonenumber}
-        onChange={(e) => setPhonenumber(e.target.value)}
-      />
-
-      <label>Message</label>
-      <textarea
-        placeholder="Message"
-        value={message}
-        onChange={(e) => setMessage(e.target.value)}
-      ></textarea>
-
-      <button
-        type="submit"
-        style={{ background: loader ? "#ccc" : " rgb(2, 2, 110)" }}
-      >
-        Submit
-      </button>
-    </form>
+        <button
+          type="submit"
+          style={{ background: loader ? "lightgreen" : " rgb(2, 2, 110)" }}
+        >
+          Submit
+        </button>
+      </form>
+    </div>
   );
 };
 

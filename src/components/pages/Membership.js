@@ -1,83 +1,21 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Membership.css";
-import { db } from "../../firebase";
+import Centercontentmembership from "./Centercontentmembership";
+import Sidebarcontentmembership from "./Sidebarcontentmembership";
 
-const Membership = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [phonenumber, setPhonenumber] = useState("");
-  const [message, setMessage] = useState("");
-
-  const [loader, setLoader] = useState(false);
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setLoader(true);
-
-    db.collection("membership")
-      .add({
-        name: name,
-        email: email,
-        phonenumber: phonenumber,
-        message: message,
-      })
-      .then(() => {
-        setLoader(false);
-        alert("Your message has been submitted👍");
-      })
-      .catch((error) => {
-        alert(error.message);
-        setLoader(false);
-      });
-
-    setName("");
-    setEmail("");
-    setMessage("");
-  };
-
+export default function Membership() {
   return (
-    <div className="memnership">
-      <form className="form" onSubmit={handleSubmit}>
-        <h1>Membership</h1>
-
-        <label>Enter your Full Name</label>
-        <input
-          placeholder="Enter your Full Name"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-        />
-
-        <label>"Enter your Email Address </label>
-        <input
-          placeholder="Email Address"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
-
-        <label>Enter Phone Number</label>
-        <input
-          type="number"
-          placeholder="+254123456789"
-          value={phonenumber}
-          onChange={(e) => setPhonenumber(e.target.value)}
-        />
-
-        <label>Enter Message</label>
-        <textarea
-          placeholder="Message"
-          value={message}
-          onChange={(e) => setMessage(e.target.value)}
-        ></textarea>
-
-        <button
-          type="submit"
-          style={{ background: loader ? "lightgreen" : " rgb(2, 2, 110)" }}
-        >
-          Submit
-        </button>
-      </form>
+    <div className="membership">
+      <div className="membership__heading">
+        <h1>
+          Fill this Membership form to become a member of The Rotary Club of
+          Kaimosi
+        </h1>
+      </div>
+      <div className="membership__contentbody">
+        <Sidebarcontentmembership />
+        <Centercontentmembership />
+      </div>
     </div>
   );
-};
-
-export default Membership;
+}

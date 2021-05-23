@@ -1,51 +1,100 @@
 import React from "react";
 import "./Centercontentclubleaders.css";
 import Socialmedia from "./Socialmedia";
+import image1 from "./countryside.jpg";
 
 function Centercontentclubleaders() {
   return (
     <div className="content__center">
       <div className="content__cen">
-        <div className="feed">
-          <p>
-            <h3>President</h3>
-            <p>Peter Roaf</p>
+        <div className="contactpeople">
+          <div className="pic">
+            <img src={image1} alt="" />
+          </div>
+          <div className="imgtext">
+            Patron
             <br />
-            <h3>President Elect</h3>
-            <p>Ann Waldo</p> <br />
-            <h3>Secretary</h3>
-            <p>Mike Storey</p> <br />
-            <h3>Treasurer</h3>
-            <p>Tammy Hansen</p> <br />
-            <h3>Immediate Past President</h3>
-            <p>Bridget Jacob </p> <br />
-            <h3>Local Community Projects</h3>
-            <p>Robert Silvester</p> <br />
-            <h3>Service</h3>
-            <p>Guillermo Bustos</p>
+            Billystrom Jivetti
             <br />
-            <h3>Membership</h3>
-            <p>Lynn Cameron</p>
+            Period : 2020-2025
+          </div>
+        </div>
+        <div className="contactpeople">
+          <div className="pic">
+            <img src={image1} alt="" />
+          </div>
+          <div className="imgtext">
+            President
             <br />
-            <h3>Fundraising</h3>
-            <p>Richard Shantz</p>
+            Lydia Khasungu Songole
             <br />
-            <h3>Rotary Foundation</h3>
-            <p>Walt Hayward</p>
+            Period : 2020-2022
+          </div>
+        </div>
+
+        <div className="contactpeople">
+          <div className="pic">
+            <img src={image1} alt="" />
+          </div>
+          <div className="imgtext">
+            Vice President
             <br />
-            <h3>PR Chair/Webmaster</h3>
-            <p>Peter Roaf</p>
+            Patrick Lidovolo
             <br />
-            <h3>Youth</h3>
-            <p>Bridget Jacob</p>
+            Period : 2020-2022
+          </div>
+        </div>
+        <div className="contactpeople">
+          <div className="pic">
+            <img src={image1} alt="" />
+          </div>
+          <div className="imgtext">
+            Treasurer
             <br />
-            <h3> Administration</h3>
-            <p>Denis Denischuk</p>
+            Hesborn Ihaji
             <br />
-          </p>
+            Period : 2020-2022
+          </div>
+        </div>
+        <div className="contactpeople">
+          <div className="pic">
+            <img src={image1} alt="" />
+          </div>
+          <div className="imgtext">
+            Secretary
+            <br />
+            Leah Makete
+            <br />
+            Period : 2020-2022
+          </div>
+        </div>
+        <div className="contactpeople">
+          <div className="pic">
+            <img src={image1} alt="" />
+          </div>
+          <div className="imgtext">
+            Sergent at Arms
+            <br />
+            Briam Malemo
+            <br />
+            Period : 2020-2022
+          </div>
+        </div>
+        <div className="contactpeople">
+          <div className="pic">
+            <img src={image1} alt="" />
+          </div>
+          <div className="imgtext">
+            Coordinator
+            <br />
+            Hardley Sinjaa Songole
+            <br />
+            Period : 2020-2022
+          </div>
         </div>
 
         <div className="socialmedia__icons">
+          <h1>Follow us on</h1>
           <Socialmedia />
         </div>
       </div>

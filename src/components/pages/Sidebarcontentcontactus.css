@@ -1,23 +1,15 @@
-.contact__sidebarcontent {
-  margin-top: 10px;
-  margin-left: 10px;
-  position: sticky;
-  top: 80px;
-  border-radius: 10px;
-  text-align: center;
+.Sidebarcontentcontactus {
+  flex: 0.2;
+  text-align: left;
   height: fit-content;
-
-  border: solid 1px red;
+  padding-left: 10px;
 }
 
-.contact__subpages {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: 1px solid lightgrey;
-  border-bottom: 0;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  background-color: white;
-  padding-bottom: 10px;
+.subpagesections {
+  color: #005daa;
+  padding: 10px;
+  border-bottom: none;
+}
+.subpagesections > h2 {
+  font-size: 35x;
 }

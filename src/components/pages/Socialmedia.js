@@ -12,7 +12,10 @@ function Socialmedia() {
   return (
     <div className="socialmedia__links">
       <div className="facebook">
-        <a href="/" className="href">
+        <a
+          href="https://www.facebook.com/Kaimosi-Kenya-Rotary-Club-102804331863605/"
+          className="href"
+        >
           <Facebook />
         </a>
       </div>

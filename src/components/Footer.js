@@ -1,6 +1,13 @@
 import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
+import {
+  Email,
+  Facebook,
+  Instagram,
+  Twitter,
+  YouTube,
+} from "@material-ui/icons";
 
 function Footer() {
   const scrollToTop = () => {
@@ -17,10 +24,10 @@ function Footer() {
               We are Rotary
             </Link>
             <Link to="/clubleaders" onClick={scrollToTop}>
-              Club Leaders
+              Club Leaders of Rotary Club of Kaimosi-Kenya
             </Link>
             <Link to="/presidentofrotaryclubofkaimosi" onClick={scrollToTop}>
-              President of rotary club of Kaimosi
+              President of Rotary Club of Kaimosi-Kenya
             </Link>
 
             <a
@@ -34,19 +41,19 @@ function Footer() {
               History of Rotary club in Kenya
             </Link>
             <Link to="/historyofrotaryclubofkaimosi" onClick={scrollToTop}>
-              History of Rotary club of Kaimosi
+              History of Rotary Club of Kaimosi-Kenya
             </Link>
           </div>
           <div class="footer-link-items">
             <h2>Projects and Partners</h2>
             <Link to="/serviceprojects" onClick={scrollToTop}>
-              Service projects
+              Service projects of Rotary Club of Kaimosi-Kenya
             </Link>
             <Link to="/rotarysplashpark" onClick={scrollToTop}>
               Rotary Splash Park
             </Link>
             <Link to="/projectpartners" onClick={scrollToTop}>
-              Project Partners
+              Project Partners of Rotary Club of Kaimosi-Kenya
             </Link>
           </div>
         </div>
@@ -60,16 +67,16 @@ function Footer() {
               Kaimosi rotary service projects
             </Link>
             <Link to="/whatdoesrotarydo" onClick={scrollToTop}>
-              What does rotary do?
+              What does Rotary do?
             </Link>
           </div>
           <div class="footer-link-items">
-            <h2>Events</h2>
+            <h2>Events of Rotary Club of Kaimosi-Kenya</h2>
             <Link to="/clubevents" onClick={scrollToTop}>
-              Club Events
+              Club Events of Rotary Club of Kaimosi-Kenya
             </Link>
             <a href="https://rotary5040.org/events/calendar/" className="href">
-              District Events
+              District Events of Rotary Club of Kaimosi-Kenya
             </a>
           </div>
         </div>
@@ -78,56 +85,39 @@ function Footer() {
         <div class="social-media-wrap">
           <div class="footer-logo">
             <Link to="/" className="social-logo" onClick={scrollToTop}>
-              Kaimosi Rotary Club
+              Kaimosi Kenya Rotary Club
             </Link>
           </div>
-          <small class="website-rights">Kaimosi Rotary Club © 2020</small>
+          <small class="website-rights">Kaimosi Kenya Rotary Club © 2021</small>
           <div class="social-icons">
-            <Link
-              class="social-icon-link facebook"
-              to="/"
-              target="_blank"
-              aria-label="Facebook"
-              onClick={scrollToTop}
-            >
-              <i class="fab fa-facebook-f" />
-            </Link>
-            <Link
-              class="social-icon-link instagram"
-              to="/"
-              target="_blank"
-              aria-label="Instagram"
-              onClick={scrollToTop}
-            >
-              <i class="fab fa-instagram" />
-            </Link>
-            <Link
-              class="social-icon-link youtube"
-              to="/"
-              target="_blank"
-              aria-label="Youtube"
-              onClick={scrollToTop}
-            >
-              <i class="fab fa-youtube" />
-            </Link>
-            <Link
-              class="social-icon-link twitter"
-              to="/"
-              target="_blank"
-              aria-label="Twitter"
-              onClick={scrollToTop}
-            >
-              <i class="fab fa-twitter" />
-            </Link>
-            <Link
-              class="social-icon-link twitter"
-              to="/"
-              target="_blank"
-              aria-label="LinkedIn"
-              onClick={scrollToTop}
-            >
-              <i class="fab fa-linkedin" />
-            </Link>
+            <div className="facebook">
+              <a
+                href="https://www.facebook.com/Kaimosi-Kenya-Rotary-Club-102804331863605/"
+                className="href"
+              >
+                <Facebook />
+              </a>
+            </div>
+            <div className="youtube">
+              <a href="/" className="href">
+                <YouTube />
+              </a>
+            </div>
+            <div className="instagram">
+              <a href="/" className="href">
+                <Instagram />
+              </a>
+            </div>
+            <div className="email">
+              <a href="/" className="href">
+                <Email />
+              </a>
+            </div>
+            <div className="twitter">
+              <a href="/" className="href">
+                <Twitter />
+              </a>
+            </div>
           </div>
         </div>
       </section>
