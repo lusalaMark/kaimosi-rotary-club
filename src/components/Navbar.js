@@ -5,9 +5,11 @@ import "./Navbar.css";
 
 function Navbar() {
   const [click, setClick] = useState(false);
-
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
 
   return (
     <>
@@ -31,6 +33,7 @@ function Navbar() {
                 to="/about-us"
                 className="nav-links"
                 onClick={closeMobileMenu}
+                onClick={scrollToTop}
               >
                 About Us
               </Link>

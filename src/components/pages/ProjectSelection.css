@@ -1,6 +1,7 @@
 .projectSelection {
   display: flex;
   flex-direction: column;
+  background-color: wheat;
 }
 
 .projectSelection__heading > h1 {
