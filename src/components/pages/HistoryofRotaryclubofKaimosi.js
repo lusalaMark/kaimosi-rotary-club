@@ -7,7 +7,7 @@ export default function HistoryofRotaryclubofKaimosi() {
   return (
     <div className="HistoryofRotaryclubofKaimosi__contact">
       <div className="HistoryofRotaryclubofKaimosi__heading">
-        <h1>History of Rotary club of Kaimosi</h1>
+        <h1>History of Kaimosi-Kenya Rotary</h1>
       </div>
       <div className="HistoryofRotaryclubofKaimosi__contentbody">
         <Sidebarcontenthistoryofrotaryclubofkaimosi />

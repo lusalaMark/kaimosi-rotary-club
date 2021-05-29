@@ -7,82 +7,78 @@ function Navbar() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-  const scrollToTop = () => {
-    window.scrollTo(0, 0);
-  };
 
   return (
     <>
       <nav className="navbar">
-        <div className="navbar-container">
-          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            KAIMOSI KENYA ROTARY CLUB
+        <div className="navbar__container">
+          <Link to="/" className="navbar__logo" onClick={closeMobileMenu}>
+            KAIMOSI-KENYA ROTARY CLUB
           </Link>
-          <div className="menu-icon" onClick={handleClick}>
+          <div className="menu__icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
+          <ul className={click ? "nav__menu active" : "nav__menu"}>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              <Link to="/" className="nav__links" onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
 
-            <li className="nav-item">
+            <li className="nav__item">
               <Link
                 to="/about-us"
-                className="nav-links"
+                className="nav__links"
                 onClick={closeMobileMenu}
-                onClick={scrollToTop}
               >
                 About Us
               </Link>
             </li>
 
-            <li className="nav-item">
+            <li className="nav__item">
               <Link
                 to="/project-and-partners"
-                className="nav-links"
+                className="nav__links"
                 onClick={closeMobileMenu}
               >
-                Project and Partners
+                Project Partners
               </Link>
             </li>
 
-            <li className="nav-item">
+            <li className="nav__item">
               <Link
                 to="/membership"
-                className="nav-links"
+                className="nav__links"
                 onClick={closeMobileMenu}
               >
                 Membership
               </Link>
             </li>
 
-            <li className="nav-item">
+            <li className="nav__item">
               <Link
                 to="/project-selection"
-                className="nav-links"
+                className="nav__links"
                 onClick={closeMobileMenu}
               >
                 Project Selection
               </Link>
             </li>
 
-            <li className="nav-item">
+            <li className="nav__item">
               <Link
                 to="/events"
-                className="nav-links"
+                className="nav__links"
                 onClick={closeMobileMenu}
               >
                 Events
               </Link>
             </li>
 
-            <li className="nav-item">
+            <li className="nav__item">
               <Link
                 to="/contact-us"
-                className="nav-links"
+                className="nav__links"
                 onClick={closeMobileMenu}
               >
                 Contact Us

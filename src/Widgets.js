@@ -24,11 +24,11 @@ function Widgets() {
           <InfoIcon />
         </div>
       </div>
-      {newsArticle("Mark is bak", "Trending with - 9999 readers ")}
-      {newsArticle("Mark is bak", "Trending with - 9999 readers ")}
-      {newsArticle("Mark is bak", "Trending with - 9999 readers ")}
-      {newsArticle("Mark is bak", "Trending with - 9999 readers ")}
-      {newsArticle("Mark is bak", "Trending with - 9999 readers ")}
+      {newsArticle("Mark is bak", "")}
+      {newsArticle("Mark is bak", "")}
+      {newsArticle("Mark is bak", "")}
+      {newsArticle("Mark is bak", "")}
+      {newsArticle("Mark is bak", "")}
     </div>
   );
 }

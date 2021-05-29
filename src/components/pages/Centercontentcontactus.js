@@ -23,7 +23,9 @@ const Centercontentcontactus = () => {
       })
       .then(() => {
         setLoader(false);
-        alert("Your message has been submitted successfully👍");
+        alert(
+          "Your message has been submitted successfully👍 to Kaimosi-Kenya Rotary Club"
+        );
       })
       .catch((error) => {
         alert(error.message);

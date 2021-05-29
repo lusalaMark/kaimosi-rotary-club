@@ -12,7 +12,7 @@ function Centercontentclubevents() {
         </div>
 
         <div className="feed">
-          <p>Past Presidents of the Rotary Club of Ladner</p>
+          <p>Past Presidents of the Kaimosi-Kenya Rotary Club</p>
         </div>
         <div className="contactpeople">
           <div className="imgtext">

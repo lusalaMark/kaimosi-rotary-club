@@ -7,7 +7,7 @@ export default function Reasonstojoinrotary() {
   return (
     <div className="Reasonstojoinrotary__contact">
       <div className="Reasonstojoinrotary__heading">
-        <h1>Reasons to join Rotary Club of Kaimosi</h1>
+        <h1>Reasons to join Kaimosi-Kenya Rotary Club</h1>
       </div>
       <div className="Reasonstojoinrotary__contentbody">
         <Sidebarcontentreasonstojoinrotary />

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import Sidebar from "../../Sidebar";
+import SidebarLeft from "../../SidebarLeft";
 import SidebarRight from "../../SidebarRight";
 import Carouselslider from "./Carouselslider";
 
@@ -11,7 +11,7 @@ function Home() {
         <Carouselslider />
       </div>
       <div className="app__body">
-        <Sidebar />
+        <SidebarLeft />
         <SidebarRight />
       </div>
     </div>

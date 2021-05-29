@@ -1,7 +1,7 @@
 .contactus {
   display: flex;
   flex-direction: column;
-  background-color: wheat;
+  background-color: white;
 }
 
 .contactus__heading > h1 {

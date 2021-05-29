@@ -1,7 +1,7 @@
 .membership {
   display: flex;
   flex-direction: column;
-  background-color: wheat;
+  background-color: white;
 }
 
 .membership__heading > h1 {

@@ -1,5 +1,5 @@
 .Centercontent__contactus {
-  background-color: white;
+  background-color: wheat;
   box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
   padding: 30px;
   height: 110vh;
@@ -27,7 +27,7 @@ textarea {
   border-radius: 3px;
   margin-bottom: 20px;
   border: 1px solid lightgray;
-  background: #fff;
+  background: wheat;
   font-size: 16px;
   color: rgb(0, 0, 32);
   outline: none;

@@ -30,7 +30,7 @@ function Socialmedia() {
         </a>
       </div>
       <div className="email">
-        <a href="/" className="href">
+        <a href="https://kaimosirotary@gmail.com" className="href">
           <Email />
         </a>
       </div>

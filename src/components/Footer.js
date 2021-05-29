@@ -15,81 +15,80 @@ function Footer() {
   };
 
   return (
-    <div className="footer-container">
-      <div class="footer-links">
-        <div className="footer-link-wrapper">
-          <div class="footer-link-items">
+    <div className="footer__container">
+      <div class="footer__links">
+        <div className="footerlink__wrapper">
+          <div class="footerlink__items">
             <h2>About Us</h2>
             <Link to="/wearerotry" onClick={scrollToTop}>
-              We are Rotary
+              <h6>We are Rotary</h6>
             </Link>
             <Link to="/clubleaders" onClick={scrollToTop}>
-              Club Leaders of Rotary Club of Kaimosi-Kenya
+              <h6>Club Leaders of Kaimosi-Kenya Rotary Club</h6>
             </Link>
             <Link to="/presidentofrotaryclubofkaimosi" onClick={scrollToTop}>
-              President of Rotary Club of Kaimosi-Kenya
+              <h6>President of Kaimosi-Kenya Rotary Club</h6>
             </Link>
 
+            <Link to="/historyofrotaryclubofkaimosi" onClick={scrollToTop}>
+              <h6>History of Kaimosi-Kenya Rotary Club</h6>
+            </Link>
+            <Link to="/historyofrotaryclubinkenya" onClick={scrollToTop}>
+              <h6>History of Rotary Club in Kenya</h6>
+            </Link>
             <a
               href="https://www.rotary.org/en/about-rotary/history"
               className="href"
             >
-              History of Rotary club International
+              <h6>History of Rotary club International</h6>
             </a>
-
-            <Link to="/historyofrotaryclubinkenya" onClick={scrollToTop}>
-              History of Rotary club in Kenya
-            </Link>
-            <Link to="/historyofrotaryclubofkaimosi" onClick={scrollToTop}>
-              History of Rotary Club of Kaimosi-Kenya
-            </Link>
           </div>
-          <div class="footer-link-items">
+          <div class="footerlink__items">
             <h2>Projects and Partners</h2>
             <Link to="/serviceprojects" onClick={scrollToTop}>
-              Service projects of Rotary Club of Kaimosi-Kenya
+              <h6>Service projects of Kaimosi-Kenya Rotary Club</h6>
             </Link>
             <Link to="/rotarysplashpark" onClick={scrollToTop}>
-              Rotary Splash Park
+              <h6>Rotary Splash Park</h6>
             </Link>
             <Link to="/projectpartners" onClick={scrollToTop}>
-              Project Partners of Rotary Club of Kaimosi-Kenya
+              <h6>Project Partners of Kaimosi-Kenya Rotary Club</h6>
             </Link>
           </div>
         </div>
-        <div className="footer-link-wrapper" onClick={scrollToTop}>
-          <div class="footer-link-items" onClick={scrollToTop}>
+
+        <div className="footerlink__wrapper" onClick={scrollToTop}>
+          <div class="footerlink__items" onClick={scrollToTop}>
             <h2>Membership</h2>
             <Link to="/reasonstojoinrotary" onClick={scrollToTop}>
-              10 Reasons to join rotary
+              <h6>10 Reasons to join rotary Kaimosi-Kenya Rotary Club</h6>
             </Link>
             <Link to="/kaimosirotaryserviceprojects" onClick={scrollToTop}>
-              Kaimosi rotary service projects
+              <h6>Kaimosi-Kenya Rotary Club Service Projects</h6>
             </Link>
             <Link to="/whatdoesrotarydo" onClick={scrollToTop}>
-              What does Rotary do?
+              <h6>What does Rotary do?</h6>
             </Link>
           </div>
-          <div class="footer-link-items">
-            <h2>Events of Rotary Club of Kaimosi-Kenya</h2>
+          <div class="footerlink__items">
+            <h2>Events</h2>
             <Link to="/clubevents" onClick={scrollToTop}>
-              Club Events of Rotary Club of Kaimosi-Kenya
+              <h6>Club Events of Kaimosi-Kenya Rotary Club</h6>
             </Link>
-            <a href="https://rotary5040.org/events/calendar/" className="href">
-              District Events of Rotary Club of Kaimosi-Kenya
-            </a>
           </div>
         </div>
       </div>
-      <section class="social-media">
-        <div class="social-media-wrap">
-          <div class="footer-logo">
-            <Link to="/" className="social-logo" onClick={scrollToTop}>
-              Kaimosi Kenya Rotary Club
+      <section class="social__media">
+        <div class="socialmedia__wrap">
+          <div class="footer__logo">
+            <Link to="/" className="social__logo" onClick={scrollToTop}>
+              <h6>Kaimosi-Kenya Rotary Club</h6>
             </Link>
           </div>
-          <small class="website-rights">Kaimosi Kenya Rotary Club © 2021</small>
-          <div class="social-icons">
+          <small class="website__rights">
+            Kaimosi-Kenya Rotary Club © 2021
+          </small>
+          <div class="social__icons">
             <div className="facebook">
               <a
                 href="https://www.facebook.com/Kaimosi-Kenya-Rotary-Club-102804331863605/"
